@@ -5,7 +5,7 @@ import throttle from 'lodash.throttle';
 const iframe = document.querySelector('iframe');
 const player = new Player(iframe);
 
-const onPlay = function (data) {
+function onPlay (data) {
   localStorage.setItem('videoplayer-current-time', data.seconds);
 };
 
