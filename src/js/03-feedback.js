@@ -21,7 +21,6 @@ if (key) {
 }
 
 function handleInputForm(event) {
-  const { email, message } = event.currentTarget.elements;
 
   userData.email = email.value;
   userData.message = message.value;
